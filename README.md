@@ -9,7 +9,7 @@ This repository contains a comprehensive collection of lab projects for the **Bu
 - **Strategic Data Analysis** - SQL queries and stored procedures for business intelligence
 - **Data Visualization** - Power BI dashboards for financial institution reporting
 
-## **Lab Projects Overview:**
+## 💻 **Lab Projects Overview:**
 
 ### **Lab 2: Linear Regression for Predicting Profit and Transactions**
 - **Objective:** Apply linear regression to predict Profit and Transactions based on Sales data
