@@ -30,7 +30,7 @@ ax1.plot(range(1, 11), wcss, marker='o', linestyle='--')
 ax1.set_xlabel('Number of Clusters (k)')
 ax1.set_ylabel('WCSS')
 ax1.set_title('Elbow Method for Optimal K')
-fig1.savefig('elbow_plot.png')  # <-- CORRECTED: save the specific figure object
+fig1.savefig('elbow_plot.png')  # save the specific figure object
 plt.show()
 plt.close(fig1)
 print("Elbow plot saved as elbow_plot.png")
@@ -71,5 +71,5 @@ print("Cluster plot saved as cluster_plot.png")
 df.to_csv('Lab_3_output.txt', sep=',', index=False)
 print("Clustered data saved to Lab_3_output.txt")
 
-# Optional: show where it's saved
+# Show where it's saved
 print("All done. Current directory:", os.getcwd())
